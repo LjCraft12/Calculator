@@ -1,0 +1,30 @@
+using System;
+
+namespace MyCalc
+{
+	class MainClass
+	{
+		public static void Main (string[] args)
+		{
+			int Multiply;
+			int Divide;
+			int Add;
+			int Subtract;
+			Multiply = 1;
+			Divide = 2;
+			Add = 3;
+			Subtract = 4;
+			int num1;
+			int num2;
+			if Userinput = 1
+			Console.WriteLine ("What do you want to do? \nPress 1 for Multiply \n" +
+			"Press 2 for Divide \nPress 3 to Add \nPress 4 to Subtract");
+			Console.Write ("type a number to be multiplied \n");
+			num1 = Convert.ToInt32 (Console.ReadLine ());
+			Console.Write ("Type another number \n");
+			num2 = Convert.ToInt32 (Console.ReadLine ());
+			Console.WriteLine ("The answer is " + num1 * num2);
+			Console.ReadKey ();
+		}
+	}
+}
